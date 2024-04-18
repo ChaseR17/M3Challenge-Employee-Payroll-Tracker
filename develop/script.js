@@ -32,12 +32,13 @@ const collectEmployees = function() {
    displayEmployees(employees)
   }
   // TODO: Get user input to create and return an array of employee objects
-  let employeesArray = [employee]
+  return employees
 }
 
 // Display the average salary
 const displayAverageSalary = function(employeesArray) {
-  // TODO: Calculate and display the average salary 
+  // TODO: Calculate and display the average salary NEED HELP
+//What I found online
 let totalSalary = 0;
 
 for (let i = 0; i<employeesArray.length; i++){
@@ -45,18 +46,15 @@ for (let i = 0; i<employeesArray.length; i++){
 }
 const averageSalary = totalSalary/employeesArray.length;
 
-console.log("The average salary is" + averageSalary);
+console.log("The average salary is " + averageSalary);
 
-// NEED HELP 
-for (let i = 0; i < salary.length; i++){
-  console.log(salary[i])
 }
-}
-
 
 // Select a random employee
 const getRandomEmployee = function(employeesArray) {
   // TODO: Select and display a random employee
+  // select a random element from an array 
+ 
 }
 
 /*
