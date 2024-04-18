@@ -32,7 +32,7 @@ const collectEmployees = function() {
    displayEmployees(employees)
   }
   // TODO: Get user input to create and return an array of employee objects
-  let employeesArray = []
+  let employeesArray = [employee]
 }
 
 // Display the average salary
@@ -110,5 +110,3 @@ const trackEmployeeData = function() {
 
 // Add event listener to 'Add Employees' button
 addEmployeesBtn.addEventListener('click', trackEmployeeData);
-
-test 2
